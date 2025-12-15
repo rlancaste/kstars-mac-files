@@ -29,7 +29,13 @@
 	<key>CSResourcesFileMapped</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string>To Take Astronomy Photos</string>
+	<string>KStars requires camera access for astrophotography, CCD/CMOS imaging, and live telescope viewing</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>KStars requires Bluetooth access to connect to wireless astronomy equipment, telescope mounts, and imaging devices</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>KStars may require microphone access for certain astronomy equipment features</string>
+	<key>com.apple.security.device.usb</key>
+	<true/>
 	<key>NSHighResolutionCapable</key>
 	<string>True</string>
 	<key>NSHumanReadableCopyright</key>
